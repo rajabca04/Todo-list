@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* ToDO css */
+
+.container{
+  background-color: #20eed2;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+.Header{
+  margin-bottom: 5%;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+input{
+  border: 5px;
+  border-color: rgb(224, 68, 238);
+  border-radius: 3px;
+  height: 20px;
+  width: 400px;
+}
+button{
+  height: 20px;
+  background-color: #075af5;
+  width: 60px;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-left: 20px;
+  border-style: none;
+}
+.list-heading{
+  color: rgb(17, 0, 255);
+  font-weight: bolder;
+  font-size: 20px;
+  margin-right: 50%;
+}
+.list-data{
+  font-weight: bolder;
+  font-size: 18px;
+  margin-left: 12%;
+  color: #ffffff;
+  width: 400px;
+  text-align: start;
+  height: 30px;
+  border-radius: 3px;
+  background-color: rgb(80, 6, 112);
+}
+.remove-btn-all{
+  height: 30px;
+  background-color: #fff;
+  width: 100px;
+  margin-top: 30px;
+  color: red;
+}
+.remove-btn{
+  height: 25px;
+  margin-left: 66%;
+  font-size: 12px;
+  position: relative;
+  top: -45px;
+  background-color: #c4f049;
+  color: red;
+}
+span{
+  color: rgb(171, 243, 2);
+}
+
